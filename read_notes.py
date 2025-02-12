@@ -19,6 +19,7 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 
+#uses speak function to read whats in file
 #open txt. file and read
 def read():
     with open("output.txt", "r") as file:

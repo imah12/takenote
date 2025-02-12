@@ -43,7 +43,7 @@ def listen():
             exit()
 
     except sr.UnknownValueError:
-        print('Speech Recognition could not understand the audio')     
+        print('Speech engine could not understand the audio')     
     except sr.RequestError as e:
         print(f"Could not request results from Google Speech Recognition service; {e}")
 

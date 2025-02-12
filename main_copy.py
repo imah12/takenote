@@ -22,6 +22,7 @@ def open_file():
 
 
 #kill the program (stop talking)
+#you can also use the x on the top right corner to stop talking lol
 def die_mfer():
     exit()
 
